@@ -1,0 +1,2 @@
+Variável é um objeto que é capaz de armazenar informações/representação que contém uma informação
+Array é um conjunto de informações

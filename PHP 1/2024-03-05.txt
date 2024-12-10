@@ -1,0 +1,3 @@
+php não declara variável
+
+cria variável com $ no começo.

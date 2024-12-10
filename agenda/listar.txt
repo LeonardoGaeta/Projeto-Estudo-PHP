@@ -1,0 +1,29 @@
+                <?php
+                    foreach($contatos as $contato) {
+                ?>
+
+                <tr>
+                    <td><?=$contato->id?></td>
+                    <td><?=$contato->nome?></td>
+                    <td><?=$contato->email?></td>
+                    <td><?=$contato->telefone?></td>
+                </tr>
+
+                <?php
+                    }
+                ?>
+
+
+
+                <?php
+                
+                foreach($contatos as $contato) {
+                    $tr = "<tr>";
+                    foreach($contato as $att) {
+                        $tr .= "<td>$att</td>";
+                    }
+                    $tr .= "</tr>";
+                    echo $tr;
+                }
+                
+                ?>
